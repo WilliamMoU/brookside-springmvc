@@ -10,3 +10,20 @@ a.out
 
 # Add in special Atari 7800-based binaries for good measure
 *.a78
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
