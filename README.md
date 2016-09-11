@@ -40,20 +40,30 @@ features in JDBI.
 
 # Running The Application
 
-To test the example application run the following commands.
+* Clone the application into your local repository by ruuning the following git command..
+$ git clone https://github.com/WilliamMoU/secure-spring-rest-api.git
 
-* Setup your sanitizer client example.
+```javascript
+$ git clone https://github.com/WilliamMoU/secure-spring-rest-api.git
+```
 
-    mkdir src/main/resources/assets
-    cp -r ../../client/* src/main/resources/assets
+* Navigate into your application by
+```javascript
+$ cd/secure-spring-rest-api
+```
 
-* To package the example run.
+* To package the application run.
 
-        mvn package
+     mvn package
+
+* You can also recompile and clean the application after making chnages by running run.
+
+     mvn clean install
+
+* Test the brookside-resource-server application by running the test/java/SpringRestClient.java application.
+
 
 * To setup the oracle database run......baadae
-
-
 
 ## Running the application
 Run it and test it using two different clients.
