@@ -75,6 +75,6 @@ that demonstrates security and role based authorization.
 
     http://localhost:8080/brookside-spring-example/oauth/token?grant_type=password&username=bill&password=abc123
 
-    Postman screen is shwo below
+   Postman screen is shwon below
 
-    ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+    ![Alt text](https://github.com/WilliamMoU/secure-spring-rest-api/blob/master/Capture.PNG?raw=true "Optional Title")
