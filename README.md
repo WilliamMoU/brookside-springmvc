@@ -41,7 +41,6 @@ features in JDBI.
 # Running The Application
 
 * Clone the application into your local repository by ruuning the following git command..
-$ git clone https://github.com/WilliamMoU/secure-spring-rest-api.git
 
 ```javascript
 $ git clone https://github.com/WilliamMoU/secure-spring-rest-api.git
@@ -53,13 +52,14 @@ $ cd/secure-spring-rest-api
 ```
 
 * To package the application run.
-
-     mvn package
+```javascript
+$  mvn package
+```
 
 * You can also recompile and clean the application after making chnages by running run.
-
-     mvn clean install
-
+```javascript
+$  mvn clean install
+```
 * Test the brookside-resource-server application by running the test/java/SpringRestClient.java application.
 
 
