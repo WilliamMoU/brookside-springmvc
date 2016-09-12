@@ -38,9 +38,9 @@ features in JDBI.
 
 * `migrations.xml` ....
 
-# Running The Application
+# Running the Application
 
-* Clone the application into your local repository by ruuning the following git command..
+* Clone the application into your local repository by running the following git command..
 
 ```javascript
 $ git clone https://github.com/WilliamMoU/secure-spring-rest-api.git
@@ -56,24 +56,24 @@ $ cd/secure-spring-rest-api
 $  mvn package
 ```
 
-* You can also recompile and clean the application after making chnages by running run.
+* You can also recompile and clean the application after making changes by running run.
 ```javascript
 $  mvn clean install
 ```
 * Test the brookside-resource-server application by running the test/java/SpringRestClient.java application.
 
 
-* To setup the oracle database run......baadae
+* To setup the oracle database run......(will look at it later on)
 
 ## Running the application
 Run it and test it using two different clients.
 
 ### Client 1: Postman
-Try to access a resource without any auth info, wil get a 401.
+Try to access a resource without any auth info, you will get a 401.
 
 ### Client 2: RestTemplate based java application
 Method sendTokenRequest is used to actually get the tokens. The access-token we got in response is then used with each request.
-If required, You can implement the refresh-token flow easily in below SpringRestClient.java has been used a a minimal GUI client
+If required, You can implement the refresh-token flow easily in below SpringRestClient.java has been used as a minimal GUI client
 that demonstrates security and role based authorization.
 
 
@@ -83,7 +83,7 @@ that demonstrates security and role based authorization.
 
 * To post data into the application you have use your login credentials in example.
 
-    http://localhost:8080/brookside-spring-example/oauth/token?grant_type=password&username=bill&password=abc123
+       http://localhost:8080/brookside-spring-example/oauth/token?grant_type=password&username=bill&password=abc123
 
    Postman screen is shwon below
 
